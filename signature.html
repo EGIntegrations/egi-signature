@@ -1,0 +1,80 @@
+<div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 500px; position: relative; background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%); border-radius: 12px; padding: 20px; border: 1px solid #00d4ff; box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);">
+  
+  <!-- Animated background elements -->
+  <div style="position: absolute; top: 10px; right: 10px; width: 6px; height: 6px; background: #00d4ff; border-radius: 50%; animation: pulse 2s infinite;"></div>
+  <div style="position: absolute; bottom: 15px; left: 15px; width: 4px; height: 4px; background: #ff6b6b; border-radius: 50%; animation: pulse 2.5s infinite;"></div>
+  <div style="position: absolute; top: 50%; right: 20px; width: 8px; height: 1px; background: linear-gradient(90deg, transparent, #00d4ff, transparent); animation: slide 3s infinite;"></div>
+  
+  <!-- Main content -->
+  <div style="position: relative; z-index: 1;">
+    <!-- Name -->
+    <div style="margin-bottom: 8px;">
+      <span style="font-size: 24px; font-weight: 700; background: linear-gradient(45deg, #00d4ff, #ffffff, #00d4ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: shimmer 3s infinite;">
+        Elliott Godwin
+      </span>
+    </div>
+    
+    <!-- Title/Role -->
+    <div style="margin-bottom: 12px;">
+      <span style="font-size: 14px; color: #a0a0a0; text-transform: uppercase; letter-spacing: 1px;">
+        Technology Solutions
+      </span>
+    </div>
+    
+    <!-- Divider line -->
+    <div style="height: 2px; background: linear-gradient(90deg, #00d4ff, transparent); margin: 15px 0; animation: glow 2s infinite alternate;"></div>
+    
+    <!-- Contact Info -->
+    <div style="margin-bottom: 8px;">
+      <span style="color: #00d4ff; font-size: 12px; margin-right: 8px;">📧</span>
+      <a href="mailto:elliott@egintegrations.com" style="color: #ffffff; text-decoration: none; font-size: 14px; transition: color 0.3s;">
+        elliott@egintegrations.com
+      </a>
+    </div>
+    
+    <div style="margin-bottom: 8px;">
+      <span style="color: #00d4ff; font-size: 12px; margin-right: 8px;">📱</span>
+      <a href="tel:417-766-6650" style="color: #ffffff; text-decoration: none; font-size: 14px; transition: color 0.3s;">
+        417-766-6650
+      </a>
+    </div>
+    
+    <div style="margin-bottom: 15px;">
+      <span style="color: #00d4ff; font-size: 12px; margin-right: 8px;">🌐</span>
+      <a href="https://egintegrations.com" style="color: #ffffff; text-decoration: none; font-size: 14px; transition: color 0.3s;">
+        egintegrations.com
+      </a>
+    </div>
+    
+    <!-- Company tagline -->
+    <div style="border-top: 1px solid rgba(0, 212, 255, 0.3); padding-top: 10px;">
+      <span style="font-size: 11px; color: #888; font-style: italic;">
+        Integrating Tomorrow's Technology Today
+      </span>
+    </div>
+  </div>
+  
+  <!-- CSS Animations -->
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+    
+    @keyframes slide {
+      0% { transform: translateX(-20px); opacity: 0; }
+      50% { opacity: 1; }
+      100% { transform: translateX(20px); opacity: 0; }
+    }
+    
+    @keyframes shimmer {
+      0% { background-position: -200% center; }
+      100% { background-position: 200% center; }
+    }
+    
+    @keyframes glow {
+      0% { box-shadow: 0 0 5px rgba(0, 212, 255, 0.5); }
+      100% { box-shadow: 0 0 15px rgba(0, 212, 255, 0.8); }
+    }
+  </style>
+</div>
